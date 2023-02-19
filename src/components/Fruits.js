@@ -1,16 +1,15 @@
 import React from "react";
 import "../styles/App.css";
-import Fruits from "./Fruits";
+import TypesOfFruit from "./TypesOfFruits";
 
-const App = () => {
+const Fruits = () => {
   return (
-    <div id="main">
-      <h1>Types of Food:</h1>
+    <div id="fruits">
       {/* Change code below this line */}
-      <Fruits />
+      <TypesOfFruit />
       {/* Change code above this line */}
     </div>
   );
 };
 
-export default App;
+export default Fruits;
